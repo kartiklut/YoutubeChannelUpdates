@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Notifications"
+       android:textSize="30dp"
+       android:textStyle="bold"
+       android:layout_marginLeft="70dp"
+       android:textColor="@color/colorPrimaryDark"
+       android:id="@+id/text"
+       ></TextView>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_below="@+id/text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/mlist_videos"
+       android:scrollbars="horizontal"
+       android:background="#c1c1c1"
+       android:padding="4dp"
+       ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
