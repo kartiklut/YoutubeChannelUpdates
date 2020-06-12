@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initList(ArrayList<YoutubeDataModel> mListData) {
 
-        mlist_videos.setLayoutManager(new LinearLayoutManager(this));
+        mlist_videos.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
         videoPostAdapter=new VideoPostAdapter(this, mListData);
         mlist_videos.setAdapter(videoPostAdapter);
         Log.d("in initList","Here!!!!");
