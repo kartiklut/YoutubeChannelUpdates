@@ -6,7 +6,6 @@
     android:layout_height="match_parent">
 
 
-
     <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,5 +70,4 @@
         </RelativeLayout>
 
     </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
-
 </LinearLayout>
