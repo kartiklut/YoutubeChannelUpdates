@@ -1,6 +1,8 @@
 package com.example.youtubeapi;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +48,15 @@ public class VideoPostAdapterSpaceX extends RecyclerView.Adapter<VideoPostAdapte
         textViewDate.setText(dataModel.getMpublishedAt());
 
         Picasso.with(context).load(dataModel.getThumbnail()).into(imageViewThumb);
+
+
+        holder.imageViewThumb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse("https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA"));
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

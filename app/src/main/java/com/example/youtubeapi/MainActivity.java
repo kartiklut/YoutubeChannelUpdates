@@ -1,11 +1,17 @@
 package com.example.youtubeapi;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.AbsListView;
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -64,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         sendApiRequestSPACEX();
         sendApiRequestESA();
         sendApiRequestCSA();
+
     }
 
     private void sendApiRequestCSA() {
@@ -257,4 +264,6 @@ public class MainActivity extends AppCompatActivity {
         mlist_videos.setAdapter(videoPostAdapter);
         Log.d("in initList","Here!!!!");
     }
+
+
 }
