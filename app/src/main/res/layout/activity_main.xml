@@ -12,13 +12,14 @@
        android:text="UPDATES"
        android:textSize="30dp"
        android:textStyle="bold"
-       android:layout_marginLeft="70dp"
-       android:textColor="@color/colorPrimaryDark"
+       android:layout_centerHorizontal="true"
+       android:textColor="#487EB0"
        android:id="@+id/text"
        ></TextView>
    <ScrollView
        android:layout_width="wrap_content"
-       android:layout_height="wrap_content">
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/text">
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -30,9 +31,7 @@
        android:layout_height="wrap_content"
        android:text="NASA"
        android:textSize="30dp"
-       android:textStyle="bold"
-       android:layout_marginLeft="75dp"
-       android:textColor="@color/colorPrimaryDark"
+       android:textColor="#F3B431"
        android:id="@+id/text1"
        ></TextView>
    <androidx.recyclerview.widget.RecyclerView
@@ -54,8 +53,7 @@
        android:text="SPACEX"
        android:textSize="30dp"
        android:textStyle="bold"
-       android:layout_marginLeft="75dp"
-       android:textColor="@color/colorPrimaryDark"
+       android:textColor="#F3B431"
        android:id="@+id/text2"
        ></TextView>
 
@@ -77,11 +75,10 @@
        android:layout_below="@+id/mlist_videos_spacex"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="ESA"
+       android:text="European Space Agency"
        android:textSize="30dp"
        android:textStyle="bold"
-       android:layout_marginLeft="75dp"
-       android:textColor="@color/colorPrimaryDark"
+       android:textColor="#F3B431"
        android:id="@+id/text3"
        ></TextView>
    <androidx.recyclerview.widget.RecyclerView
@@ -102,11 +99,10 @@
        android:layout_below="@+id/mlist_videos_esa"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="CSA"
+       android:text="Canadian Space Agency"
        android:textSize="30dp"
        android:textStyle="bold"
-       android:layout_marginLeft="75dp"
-       android:textColor="@color/colorPrimaryDark"
+       android:textColor="#F3B431"
        android:id="@+id/text4"
        ></TextView>
    <androidx.recyclerview.widget.RecyclerView
