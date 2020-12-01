@@ -14,6 +14,6 @@ ESA="https://www.googleapis.com/youtube/v3/activities?part=snippet%2CcontentDeta
 CSA="https://www.googleapis.com/youtube/v3/activities?part=snippet%2CcontentDetails&channelId=UCdNtqpHlU1pCaVy2wlzxHKQ&maxResults=10&key=[Your-API-Key]"
 
 
-# Link to find Channel ID
+# Link to find Youtube Channel ID
 
 https://commentpicker.com/youtube-channel-id.php
